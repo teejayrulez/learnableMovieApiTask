@@ -2,11 +2,13 @@ const readline = require("readline");
 
 // List of available movies
 const movies = [
-  { id: 1, name: "Mission Impossible" },
+  { id: 1, name: "Mission Impossible: Fallout" },
   { id: 2, name: "Mad Max: Fury Road" },
   { id: 3, name: "Pirates of the Caribbean" },
   { id: 4, name: "Paw Patrol: The Movie" },
-  { id: 5, name: "Power Rangers" },
+  { id: 5, name: "Power Rangers: Jungle Fury" },
+  { id: 6, name: "Squid game" },
+  { id: 7, name: "Fast and the furious 8" },
 ];
 
 class Movie {
